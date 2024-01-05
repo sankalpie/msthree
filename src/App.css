@@ -1,0 +1,84 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.coffeeImage
+{
+  background-image: url("./photos/coffee_beans.png");
+  background-size: cover;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.div1
+{
+  flex-grow: 0.333;
+}
+
+.div2
+{
+  flex-grow: 0.3333;
+}
+
+.div3
+{
+  flex-grow: 0.2;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.button-in-div3
+{
+  margin-top: auto;
+  align-self: flex-start;
+  background: transparent;
+  border: none;
+  color: azure;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.msthreelogo
+{
+  height: 200px;
+}
+
+.arrow
+{
+  margin-top: 10px;
+  width: 40px;
+}
+
+.arrow {
+  transition: transform 0.5s ease-in-out;
+}
+
+.bounce {
+  animation: bounceAnimation 0.5s infinite alternate;
+}
+
+@keyframes bounceAnimation {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px); /* Adjust the bounce height as needed */
+  }
+}
+
+
+/* footer styles */
+.footer
+{
+  background-color: black;
+  color: aliceblue;
+  padding-top: 2px;
+  padding-bottom: 7px;
+  text-align: center;
+}

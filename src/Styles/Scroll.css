@@ -1,0 +1,154 @@
+.framerMotion {
+    margin: 140px auto;
+    max-width: 570px;
+    padding-bottom: 200px;
+}
+
+.card {
+    font-size: 25px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 1px hsl(0deg 0% 0% / 0.075), 0 0 2px hsl(0deg 0% 0% / 0.075),
+        0 0 4px hsl(0deg 0% 0% / 0.075), 0 0 8px hsl(0deg 0% 0% / 0.075),
+        0 0 16px hsl(0deg 0% 0% / 0.075);
+    transform-origin: 10% 60%;
+    /* manual styles */
+    margin-top: 60px;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    font-weight:700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.card-container {
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 10px;
+    margin-bottom: -70px;
+    /* manual styles */
+    height: 210px;
+}
+
+.splash {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    clip-path: path("M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z"
+        );
+}
+
+/* ///////////////////////////////////////////////////////////// */
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: -90px;
+}
+
+.ColdCoffee
+{
+    background-image: url("../photos/cold_coffee.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
+
+.HotCoffee
+{
+    background-image: url("../photos/hotcoffee.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
+
+.SodaShikanji
+{
+    background-image: url("../photos/soda_shikanji.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
+
+.FruitJuice
+{
+    background-image: url("../photos/fruit_juice.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
+
+.FruitShake
+{
+    background-image: url("../photos/fruit_shake.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
+
+.IceCreamShake
+{
+    background-image: url("../photos/ice_cream_shake.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
+
+.Lassi
+{
+    background-image: url("../photos/lassi.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
+
+.Chai
+{
+    background-image: url("../photos/chai.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
+
+.Softy
+{
+    background-image: url("../photos/softy.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
+
+.Ice-Tea
+{
+    background-image: url("../photos/ice_tea.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
+
+.Mocktail
+{
+    background-image: url("../photos/mocktail.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
+
+.IceCreamSoda
+{
+    background-image: url("../photos/ice_cream_soda.jpg");
+    background-size: cover;
+    background-color: rgba(203, 172, 134, 0.695);
+    color: aliceblue;
+}
