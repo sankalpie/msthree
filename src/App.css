@@ -76,9 +76,10 @@
 /* footer styles */
 .footer
 {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.54);
   color: aliceblue;
   padding-top: 2px;
   padding-bottom: 7px;
   text-align: center;
+  width: 100%;
 }
