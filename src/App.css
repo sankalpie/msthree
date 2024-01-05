@@ -5,7 +5,7 @@
 
 .coffeeImage
 {
-  background-image: url("./photos/coffee_beans.png");
+  background-image: url("./photos/coffee_beans.jpg");
   background-size: cover;
   height:100vh;
   display: flex;
