@@ -41,14 +41,14 @@ function ColdCoffeeMenu(props) {
     return (
         <>
             <center>    <img src={msthreelogo} alt="LOGO" style={{ height: "100px", marginTop: "20px" }} />    </center>
-            <div className="caixa">
-                <h1 className="subtitulos">{heading}</h1>
+            <div className="container">
+                <h1 className="subHeading">{heading}</h1>
                 <div className="div_subclasses">
                     {
                         respDataArray &&
                         respDataArray.map((item, index) => {
                             return (
-                                <div className="ingrediente_descricao" key={index}>
+                                <div className="menuItem" key={index}>
                                     <p className="item">{item.name}_________<strong>{item.value}/-</strong></p>
                                     <br />
                                 </div>

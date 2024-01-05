@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Montserrat';
-    background-image: url("../photos/menu_background.jpg");
+    background-image: url("../photos/menu_background.png");
     background-size: cover;
 }
 
@@ -16,7 +16,7 @@ strong {
     font-weight: 600;
 }
 
-.caixa {
+.container {
     border: 4px powderblue solid;
     background: rgb(255, 241, 0);
     background: linear-gradient(130deg, rgba(255, 241, 0, 1) 0%, rgba(255, 165, 0, 1) 100%);
@@ -33,12 +33,12 @@ strong {
     /* padding-left: -10px; */
 }
 
-.ingrediente_descricao {
+.menuItem {
     padding-left: 23%;
     padding-bottom: 0.9%;
 }
 
-.subtitulos {
+.subHeading {
     padding-bottom: 0.3%;
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -54,18 +54,18 @@ strong {
 
 @media only screen and (max-device-width: 2000px)
 {
-    .caixa
+    .container
     {
         font-size: 25px;
     }
-    .ingrediente_descricao
+    .menuItem
     {
         padding-left: 15%;
     }
 }
 
 @media only screen and (max-device-width: 1300px) {
-    .caixa {
+    .container {
         margin-left: 12%;
         margin-right: 12%;
         font-size: 20px;
@@ -73,7 +73,7 @@ strong {
         
     }
 
-    .ingrediente_descricao {
+    .menuItem {
         padding-left: 15%;
         padding-bottom: 0.9%;
         /* padding-left: 100px; */
@@ -89,13 +89,13 @@ strong {
 }
 
 @media only screen and (max-device-width: 800px) {
-    .caixa {
+    .container {
         margin-left: 7%;
         margin-right: 7%;
         font-size: 17px;
     }
 
-    .ingrediente_descricao {
+    .menuItem {
         padding-left: 15%;
         padding-bottom: 0.9%;
     }
