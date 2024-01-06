@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import "../Styles/MenuStyles.css";
-import msthreelogo from "../photos/ms3_logo.png";
+import msthreelogo from "../photos/ms3_logo2.png";
 
 
 function ColdCoffeeMenu(props) {
     const { heading } = props;
     const [respDataArray, setRespDataArray] = useState(null);
+
+    const redirectToPay = () => {
+        window.location.href = 'upi://pay?pa=paytmqr1nf9q1jx0v@paytm&pn=Paytm';
+    };
 
     useEffect(() => {
         const apiLink = "https://api.npoint.io/7a0859d52effd777419c";
@@ -57,6 +61,9 @@ function ColdCoffeeMenu(props) {
                     }
                 </div>
             </div>
+            <center>
+                <button class="pulsating-button" onClick={redirectToPay}>PAY NOW!</button>
+            </center>
         </>
     )
 }

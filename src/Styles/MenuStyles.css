@@ -52,14 +52,12 @@ strong {
     font-size: 0.72em;
 }
 
-@media only screen and (max-device-width: 2000px)
-{
-    .container
-    {
+@media only screen and (max-device-width: 2000px) {
+    .container {
         font-size: 25px;
     }
-    .menuItem
-    {
+
+    .menuItem {
         padding-left: 15%;
     }
 }
@@ -70,7 +68,7 @@ strong {
         margin-right: 12%;
         font-size: 20px;
         /* padding-left: 10px; */
-        
+
     }
 
     .menuItem {
@@ -109,7 +107,33 @@ strong {
     }
 }
 
-.menuFooter
-{
+.menuFooter {
     margin-top: auto;
+}
+
+/* pusating button styles */
+.pulsating-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+    margin-bottom: 10px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }

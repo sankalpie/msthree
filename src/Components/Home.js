@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../App.css';
 import Scroll from "./Scroll";
-import msthreelogo from "../photos/ms3_logo.png";
+import msthreelogo from "../photos/ms3_logo2.png";
 import arrow from "../photos/arrow.png";
 
 function Home(props) {
