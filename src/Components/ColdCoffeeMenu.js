@@ -7,8 +7,14 @@ function ColdCoffeeMenu(props) {
     const { heading } = props;
     const [respDataArray, setRespDataArray] = useState(null);
 
-    const redirectToPay = () => {
-        window.location.href = 'upi://pay?pa=paytmqr1nf9q1jx0v@paytm&pn=Paytm';
+    const redirectToPay1 = () => {
+        window.location.href = 'https://tez.google.com/pay';
+    };
+    const redirectToPay2 = () => {
+        window.location.href = 'https://p.paytm.me/xCTH/adpai';
+    };
+    const redirectToPay3 = () => {
+        window.location.href = 'https://ppe.onelink.me/rPjp/2kk1w03o';
     };
 
     useEffect(() => {
@@ -62,7 +68,9 @@ function ColdCoffeeMenu(props) {
                 </div>
             </div>
             <center>
-                <button class="pulsating-button" onClick={redirectToPay}>PAY NOW!</button>
+                <button class="pulsating-button" onClick={redirectToPay1}>GPay</button>
+                <button class="pulsating-button" onClick={redirectToPay2}>Paytm</button>
+                <button class="pulsating-button" onClick={redirectToPay3}>PhonePe</button>
             </center>
         </>
     )
